@@ -17,9 +17,10 @@
 </head>
 <body style="height: 1000px">
 	<div class="_content">
-		<div class="--row">
-			<div style="background: red">Test</div>
-			<div style="background: blue">Test</div>
+		<div class="--row --x-left">
+			<div class="--rubb" style="background: black; width: 400px; height: 200px">test</div>
+			<div style="background: red" >Test</div>
+			<div style="background: blue" >Test</div>
 		</div>
 	</div>
 </body>
