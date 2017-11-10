@@ -1,49 +1,6 @@
-.head {
-    background: hsla(0, 0%, 96%, 1);
-}
-.logos {
-    width: 200px;
-    height: 100px;
-    background: red;
-    margin: 10px 0;
-}
-
-.head .phone p:before,
-.head .address p:before
-{
-    background: red;
-    border-radius: 50%;
-}
-.menu {
-    background: #49d3d4;
-}
-.menu ul {
-    margin: 0;
-}
-.menu ul li a {
-    padding: 15px 10px;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    width: 100%;
-}
-.menu ul li a:hover {
-    background: #33b7b7;
-}
-
-.prod .image {
-    height: 200px;
-    background: #e6e6e6;
-}
-.prod {
-    border: 1px solid #c1c1c1;
-    padding: 10px;
-}
-.prod-list {
-    margin: 25px 0;
-}
 .asd {
     border: 2px dashed red;
+    background: #f3f3f3;
     width: 100px;
     height: 300px;
     margin: 10px;
