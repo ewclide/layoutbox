@@ -37,8 +37,8 @@
 	</div>
 	<div class="wrapper">
 		<div class="_content">
-			<div class="prod-list --row-3 --x-left">
-				<div class="prod --col rubb">
+			<div class="prod-list --tile-4">
+				<div class="prod --col">
 
 					<div class="prod-item">
 						<div class="image"></div>
@@ -55,7 +55,7 @@
 					</div>
 
 				</div>
-				<div class="prod --col --rubb">
+				<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -68,21 +68,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="prod --col --rubb">
-					<div class="image"></div>
-					<div class="info --col">
-						<h2>Some product</h2>
-						<div class="price --row --nowrap --x-full">
-							<p class="oldprice">12 000 rub</p>
-							<p class="newprice">10 000 rub</p>
-						</div>
-						<div>
-							<a href="">more</a>
-						</div>
-					</div>
-				</div>
-
-								<div class="prod --col --rubb">
+				<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -96,7 +82,7 @@
 					</div>
 				</div>
 
-								<div class="prod --col --rubb">
+								<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -110,7 +96,7 @@
 					</div>
 				</div>
 
-								<div class="prod --col --rubb">
+								<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -124,7 +110,7 @@
 					</div>
 				</div>
 
-								<div class="prod --col --rubb">
+								<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -138,7 +124,7 @@
 					</div>
 				</div>
 
-								<div class="prod --col --rubb">
+								<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -152,20 +138,7 @@
 					</div>
 				</div>
 
-								<div class="prod --col --rubb">
-					<div class="image"></div>
-					<div class="info --col">
-						<h2>Some product</h2>
-						<div class="price --row --nowrap --x-full">
-							<p class="oldprice">12 000 rub</p>
-							<p class="newprice">10 000 rub</p>
-						</div>
-						<div>
-							<a href="">more</a>
-						</div>
-					</div>
-				</div>
-				<div class="prod --col --rubb">
+								<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>
@@ -179,7 +152,34 @@
 					</div>
 				</div>
 
-				<div class="prod --col --rubb">
+								<div class="prod --col">
+					<div class="image"></div>
+					<div class="info --col">
+						<h2>Some product</h2>
+						<div class="price --row --nowrap --x-full">
+							<p class="oldprice">12 000 rub</p>
+							<p class="newprice">10 000 rub</p>
+						</div>
+						<div>
+							<a href="">more</a>
+						</div>
+					</div>
+				</div>
+				<div class="prod --col">
+					<div class="image"></div>
+					<div class="info --col">
+						<h2>Some product</h2>
+						<div class="price --row --nowrap --x-full">
+							<p class="oldprice">12 000 rub</p>
+							<p class="newprice">10 000 rub</p>
+						</div>
+						<div>
+							<a href="">more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="prod --col">
 					<div class="image"></div>
 					<div class="info --col">
 						<h2>Some product</h2>

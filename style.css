@@ -36,8 +36,8 @@
     background: #e6e6e6;
 }
 .prod {
-    /*margin: 10px;*/
-    width: 255px;
+    border: 1px solid #c1c1c1;
+    padding: 10px;
 }
 .prod-list {
     margin: 25px 0;
