@@ -214,7 +214,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-betweeneen;
+    justify-content: space-between;
     flex-grow: 0;
 }
 
@@ -250,7 +250,7 @@ a {
 }
 .--between.--mid
 {
-    justify-content: space-betweeneen;
+    justify-content: space-between;
 }
 
 .--col.--left, .--col.--right,

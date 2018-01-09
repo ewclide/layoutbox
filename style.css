@@ -1,6 +1,6 @@
-.asd {
-    border: 2px dashed red;
-    background: #f3f3f3;
+.zone {
+    border: 1px dashed red;
+    background: #f7f7f7;
     width: 100px;
     height: 300px;
     margin: 10px;
