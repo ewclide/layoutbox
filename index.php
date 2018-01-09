@@ -9,7 +9,7 @@
 </head>
 <body style="height: 700px">
 	<div class="_cont">
-		<div class="--tile-4">
+		<div class="--row-3">
 			<div class="asd"></div>
 			<div class="asd"></div>
 			<div class="asd"></div>

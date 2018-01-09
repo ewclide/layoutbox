@@ -8,7 +8,7 @@
 ### Classes
 
 - **--row** ( divides the block to stretched columns )
-- **--row-2, --row-3, --row-4, --row-5, --row-6** ( divides the block on equal columns ) // need to add
+- **--row-2, --row-3, --row-4, --row-5** ( divides the block on equal columns )
 - **--col** ( disposes the elements to vertical column )
 - **--left** ( disposes the elements to left of the block)
 - **--right** ( disposes the elements to right of the block)
@@ -19,6 +19,7 @@
 - **--tile-3** ( defines three columns of tile )
 - **--tile-4** ( defines four columns of tile )
 - **_cont** ( defines main container - max width 1200px )
+- **_cont-hd** ( defines main container - max width 1280px )
 - **_hid-768** ( hides the elemets when size less 768px )
 - **_screen** ( stretch the elemets to fullscreen )
 - **_full** ( stretches the elemet in all the parent block )
@@ -31,10 +32,10 @@
 
 
 	css classes divided on:
-	1) positioning (begin with --) - use only for positioning
-	2) absolute classes (begin with _) - allow to customize common styles of elements
-	3) decorators - simple classes come up by user. You can use inheriting and overloading of classes tree
-	4) specify 	(begin with -) - use for moving out specific parameters of elements
+	1. positioning (begin with --) - use only for positioning
+	2. absolute classes (begin with _) - allow to customize common styles of elements
+	3. decorators - simple classes come up by user. You can use inheriting and overloading of classes tree
+	4. specify 	(begin with -) - use for moving out specific parameters of elements
 
 
 ### Exapmles
