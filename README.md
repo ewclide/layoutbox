@@ -1,5 +1,5 @@
-#LayoutBox - is easy library of CSS templates
--------------
+
+# LayoutBox - css library of templates
 
 ### Description
 
@@ -7,45 +7,64 @@
 
 ### Classes
 
-- **--row** ( divides the block to stretched columns )
-- **--row-2, --row-3, --row-4, --row-5** ( divides the block on equal columns )
-- **--col** ( disposes the elements to vertical column )
-- **--left** ( disposes the elements to left of the block)
-- **--right** ( disposes the elements to right of the block)
-- **--bot** ( disposes the elements to botttom of the block)
-- **--mid** ( disposes the elements to middle of the block, can uses with left, top, right, bot.. )
-- **--arnd** ( disposes the elements to around of the block )
-- **--betw** ( disposes the elements to between of the block )
-- **--tile-3** ( defines three columns of tile )
-- **--tile-4** ( defines four columns of tile )
-- **_cont** ( defines main container - max width 1200px )
-- **_cont-hd** ( defines main container - max width 1280px )
-- **_hid-768** ( hides the elemets when size less 768px )
-- **_screen** ( stretch the elemets to fullscreen )
-- **_full** ( stretches the elemet in all the parent block )
-- **_trans-250** ( defines "transition" option to 250ms to the elements )
-- **_trans-500**  ( defines "transition" option to 500ms to the elements )
-- **_trans-250-full** ( defines "transition" option to 250ms to the element and all child elements)
-- **_trans-500-full** ( defines "transition" option to 250ms to the element and all child elements)
-- **_icon-left** ( addes left space for the icon )
-- **_icon-right** ( addes right space for the icon ) // need to add
+to position elements inside a container:
 
+- **--row** - defines internal elements as columns
+- **--row-(2-6)** - divides internal elements on equal columns
+- **--col** - places elements in a vertical column
+- **--left** - places internal elements to the left
+- **--right** - places internal elements to the right
+- **--bottom** - places internal elements to the bottom
+- **--center** - places internal elements to the center
+- **--around** - places internal elements of the block evenly
+- **--between** - places internal elements across the entire width of the block
 
-	css classes divided on:
-	1. positioning (begin with --) - use only for positioning
-	2. absolute classes (begin with _) - allow to customize common styles of elements
-	3. decorators - simple classes come up by user. You can use inheriting and overloading of classes tree
-	4. specify 	(begin with -) - use for moving out specific parameters of elements
+dividing classes:
+
+- **--tile-(3,4)** - converts the internal elements of a block to a tile
+- **--grid-(2-6)** - converts the internal elements of a block to a grid
+
+classes for containers (with padding-left-right 15px) :
+
+- **_container** - max width 1200px
+- **_container-hd** - max width 1280px
+- **_container-thin** - max width 1024px
+
+classes affect the size of the blocks:
+
+- **_screen** - stretches the element to full screen
+- **_full** - stretches the element to full parent block
+
+additional class:
+
+- **_trans-250** - assigns the transition property
+- **_trans-500**
+- **_trans-250-full** - assigns the transition property to all child elements and subelements
+- **_trans-500-full**
+- **_icon-left** - addes left space for the icon
+
+if you need to hide a block on a specific resolution:
+
+- **_hide-1024**
+- **_hide-768**
+- **_hide-420**
+
+css classes divided on:
+
+- **positional** (start with "--") - use only for positioning elements
+- **global** (start with "_") - allows you to customize common element styles
+- **decorators** (starting with "-" ) - are used to change certain properties of the element
+- **simple** - user-defined classes. You can use class inheritance and overload
 
 
 ### Exapmles
 
 ```html
 <div class="_cont">
-	<div class="--left --mid">
-		<div class="someclass"></div>
-		<div class="someclass"></div>
-		<div class="someclass"></div>
+	<div class="--left --center">
+		<div class="some"></div>
+		<div class="some"></div>
+		<div class="some"></div>
 	</div>
 </div>
 
