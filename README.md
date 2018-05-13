@@ -18,6 +18,7 @@ to position elements inside a container:
 - **--center** - places internal elements to the center
 - **--around** - places internal elements of the block evenly
 - **--between** - places internal elements across the entire width of the block
+- **--static** - saves the layout of items at lower screen resolutions
 
 dividing classes:
 
