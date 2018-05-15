@@ -81,8 +81,6 @@ Classes are also divided into types:
 </div>
 ```
 
-![layoutbox on page](result.jpg)
-
 -------------
 Thank's for using.
 Developed by Ustinov Maxim - [ewclide](http://vk.com/ewclide)
